@@ -1,4 +1,3 @@
-```markdown
 # Local-LLM
 
 A collection of tools, functions, and system prompts to improve the response and functionality of locally hosted Large Language Models (LLMs). This repository is designed to enhance your interactions with LLMs by providing utility scripts and configuration settings tailored for local deployments.
@@ -38,4 +37,3 @@ Contributions are welcome! If you have a tool or a script that enhances the func
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
