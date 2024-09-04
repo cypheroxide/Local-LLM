@@ -46,17 +46,3 @@ if __name__ == "__main__":
         for file in result:
             print(file)
 
-# For OpenWeb UI integration
-def scan_directory_ui(directory_path):
-    """
-    Function to be integrated with OpenWeb UI to scan a directory.
-
-    :param directory_path: The path provided by the user through the UI.
-    :return: List of files found in the directory or an error message.
-    """
-    result = scan_directory(directory_path)
-
-    if isinstance(result, str):
-        return result  # Return error message to the UI
-    else:
-        return f"Found {len(result)} files. First 10 files: {result[:10]}"
