@@ -24,6 +24,13 @@ A collection of tools, functions, and system prompts to improve the response and
 - Python 3.x
 - Additional dependencies listed in the respective script files.
 
+## Tools
+
+### 1. Tool call script when implementing with Ollama models
+
+- **Script**: `tool_call.py`
+- **Description**: This script provides supported models the ability to answer with a `tool_calls` response.  Tool responses can be provided via meassages with `tool` role. See Ollama [API documentation](https://github.com/ollama/ollama/blob/main/docs/api.md#chat-request-with-tools) for more information.
+
 ## Contributing
 
 Contributions are welcome! If you have a tool or a script that enhances the functionality of local LLMs, feel free to open a pull request.
@@ -33,7 +40,3 @@ Contributions are welcome! If you have a tool or a script that enhances the func
 - [ ] Add more LLM-related utilities and scripts.
 - [ ] Develop system prompts for specific LLM use cases.
 - [ ] Provide integration examples with popular local LLM frameworks.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
