@@ -1,3 +1,28 @@
+"""
+LLM Output Converter
+---------------------
+A Python script to convert LLM outputs into common document formats:
+- Word (.docx)
+- PowerPoint (.pptx)
+- Excel (.xlsx)
+
+Usage:
+    - Scan local and network-accessible directories
+    - 
+    This Python tool scans local or network-accessible directories, listing all files recursively. 
+    It is designed to be used with locally hosted LLMs in environments like OpenWeb UI, enabling 
+    Retrieval Augmented Generation (RAG) tasks by indexing or processing the scanned files.
+
+Requirements:
+    - os
+    - pathlib
+
+Author: Cypher Oxide
+GitHub: https://github.com/cypheroxide
+
+License: MIT License
+"""
+
 import os
 from pathlib import Path
 
