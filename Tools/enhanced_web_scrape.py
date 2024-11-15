@@ -124,7 +124,7 @@ class Tools:
         
 class WebScrapeTest(unittest.IsolatedAsyncioTestCase):
     async def test_web_scrape(self):
-        url = "https://toscrape.com/" """This is a sandbox example url output for the scraped content"""
+        url = "https://toscrape.com/" # This is a sandbox example url output for the scraped content
         content = await Tools().web_scrape(url)
         self.assertEqual("Scraping Sandbox", extract_title(content))
         self.assertEqual(len(content), 770)
