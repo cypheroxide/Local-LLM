@@ -1,42 +1,51 @@
 # Local-LLM
 
-A collection of tools, functions, and system prompts to improve the response and functionality of locally hosted Large Language Models (LLMs). This repository is designed to enhance your interactions with LLMs by providing utility scripts and configuration settings tailored for local deployments.
+A toolkit for autonomous AI operations using local LLM implementations.
 
-## Features
+## Project Structure
 
-- Tools for optimizing LLM responses
-- Custom system prompts for better interaction
-- Functions to manage locally hosted LLM workflows
+```
+Local-LLM/
+├── src/                           # Main source code directory
+│   ├── core/                      # Core functionality
+│   │   ├── functions/             # Core function modules
+│   │   ├── api/                   # API integrations
+│   │   └── tools/                 # Core tools
+│   ├── models/                    # Model definitions
+│   ├── pipelines/                 # Processing pipelines
+│   └── tools/                     # Specialized tools
+├── prompts/                       # LLM prompts
+├── tests/                         # Test suite
+├── examples/                      # Usage examples
+└── docs/                          # Documentation
+```
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd Local-LLM
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Install the package in development mode:
+   ```bash
+   pip install -e .
+   ```
 
 ## Usage
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/cypheroxide/Local-LLM.git
-   ```
+See [docs/USAGE.md](docs/USAGE.md) for detailed usage instructions.
 
-2. Explore the available tools and scripts in the `Tools/` directory.
+## API Documentation
 
-3. Run scripts directly or customize them based on your requirements.
+For API documentation, see [docs/API.md](docs/API.md).
 
-## Requirements
+## License
 
-- Python 3.x
-- Additional dependencies listed in the respective script files.
-
-## Tools
-
-### 1. Tool call script when implementing with Ollama models
-
-- **Script**: `tool_call.py`
-- **Description**: This script provides supported models the ability to answer with a `tool_calls` response.  Tool responses can be provided via meassages with `tool` role. See Ollama [API documentation](https://github.com/ollama/ollama/blob/main/docs/api.md#chat-request-with-tools) for more information.
-
-## Contributing
-
-Contributions are welcome! If you have a tool or a script that enhances the functionality of local LLMs, feel free to open a pull request.
-
-## Roadmap
-
-- [ ] Add more LLM-related utilities and scripts.
-- [ ] Develop system prompts for specific LLM use cases.
-- [ ] Provide integration examples with popular local LLM frameworks.
+This project is licensed under the MIT License - see the LICENSE file for details.
