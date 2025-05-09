@@ -1,3 +1,16 @@
+"""title: Add to Memory
+author: CypherOxide
+author_url: https://angelsantiago.me
+
+"""
+
+#########################################################
+# OpenWebUI Function to add to memory from the conversation.
+# The AI processes user messages dynamically or statically,
+# stores knowledge for future use, and applies learning
+# functions to iteratively improve its understanding.
+#########################################################
+
 from pydantic import BaseModel, Field
 from typing import Optional
 from fastapi.requests import Request
