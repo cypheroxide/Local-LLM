@@ -1,10 +1,8 @@
-"""
-title: Enhanced Web Scrape
-description: An improvised web scraping tool that extracts text content using Jina Reader, with filtering, user-configuration, and UI feedback using emitters.
-author: cypheroxide
-author_url: https://github.com/cypheroxide
-version: 1-beta.rc1
-license: MIT
+"""title: Enhanced Web Scrape
+author: CypherOxide
+author_url: https://angelsantiago.me
+
+NOTE:  An improvised web scraping tool that extracts text content using Jina Reader, with filtering, user-configuration, and UI feedback using emitters.
 """
 
 import requests
