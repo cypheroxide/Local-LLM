@@ -1,3 +1,9 @@
+"""title: File Handler
+author: CypherOxide
+author_url: https://angelsantiago.me
+
+"""
+
 import os
 import requests
 from datetime import datetime
